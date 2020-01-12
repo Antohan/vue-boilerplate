@@ -2,3 +2,6 @@
 
 
 > Run `npm run serve` for develop.
+>
+>## License
+> MIT
