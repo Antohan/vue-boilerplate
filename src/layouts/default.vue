@@ -1,17 +1,25 @@
 <template>
   <section>
     <header>
-      <router-link :to="{ name: 'home' }">
+      <router-link
+        :to="{ name: 'home' }"
+        :active-class="$style.activeLink"
+        exact
+      >
         Home
       </router-link>
 
-      <router-link :to="{ name: 'about' }">
+      <router-link
+        :to="{ name: 'about' }"
+        :active-class="$style.activeLink"
+        exact
+      >
         About
       </router-link>
     </header>
 
     <div>
-      <router-view />
+      <router-view/>
     </div>
   </section>
 </template>
@@ -22,5 +30,8 @@ export default {
 };
 </script>
 
-<style lang="scss" module>
+<style module>
+.activeLink {
+  color: var(--primary-color);
+}
 </style>
