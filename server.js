@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 app.set('port', port);
 
-// here we are configuring dist to serve app files
+// here we are configuring dist to serve features files
 app.use('/', serveStatic(path.join(__dirname, '/dist')));
 
 // this * route is to serve project on different page routes except root `/`

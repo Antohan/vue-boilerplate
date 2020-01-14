@@ -1,12 +1,13 @@
 <template>
-  <h1>Home page</h1>
+  <h1>Client page</h1>
 </template>
 
 <script>
 export default {
-  name: 'HomePage',
+  name: 'client-page',
 };
 </script>
 
-<style lang="scss" module>
+<style scoped>
+
 </style>

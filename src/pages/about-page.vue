@@ -7,6 +7,3 @@ export default {
   name: 'AboutPage',
 };
 </script>
-
-<style lang="scss" module>
-</style>
