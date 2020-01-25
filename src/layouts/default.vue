@@ -27,7 +27,7 @@
         </router-link>
       </nav>
 
-      <switch-button v-model="isAuth" />
+      <app-login />
     </header>
 
     <div :class="$style.pageContent">
@@ -37,11 +37,13 @@
 </template>
 
 <script>
+import LoginComponent from '@/features/auth/components/login';
+
 export default {
   name: 'DefaultLayout',
-  data: () => ({
-    isAuth: false,
-  }),
+  components: {
+    'app-login': LoginComponent,
+  },
 };
 </script>
 
