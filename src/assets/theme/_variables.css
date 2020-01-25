@@ -1,3 +1,12 @@
 :root {
-  --primary-color: #6495ed;
+  --ptimary-font: 'Lato';
+
+  --base-text-color: #000;
+
+  --primary-color: #ff4700;
+  --secondary-color: #f39020;
+  --error-color: #F44336;
+
+
+  --shadow-color: #ccc;
 }

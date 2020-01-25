@@ -1,0 +1,18 @@
+@import "../fonts/lato/lato.css";
+@import "./_variables.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: var(--ptimary-font);
+    color: var(--base-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
